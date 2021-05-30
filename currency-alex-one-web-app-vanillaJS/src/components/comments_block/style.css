@@ -1,0 +1,23 @@
+.two-block__column {
+  flex: 0 1 100%;
+  padding: 0px 15px;
+  margin: 0px 0px 15px 0px;
+}
+@media (max-width: 767px) {
+  .two-block__column {
+    flex: 0 1 100%;
+  }
+}
+.two-block__item {
+  background-color: #18b5a4;
+  padding: 15px;
+}
+.two-block__image {
+  padding: 0px 0px 28% 0px;
+  background-color: #ece89d;
+  margin-bottom: 10px;
+}
+.two-block__text {
+  color: #fff;
+  line-height: 25px;
+}

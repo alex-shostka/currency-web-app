@@ -1,0 +1,14 @@
+@import url("common.css");
+
+/* Styles for components  */
+/* components */
+@import url("../components/comments_block/style.css");
+@import url('../components/list_orderBlock/style.css');
+@import url('../components/new_orderBlock/style.css');
+
+
+/* Styles for pages  */
+/* pages */
+@import url("../pages/style.css");
+@import url("../pages/dashboard/style.css");
+@import url("../pages/error404/style.css");

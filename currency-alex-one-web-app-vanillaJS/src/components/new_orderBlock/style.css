@@ -1,0 +1,23 @@
+.three-block__column {
+  padding: 0px 15px;
+  margin: 0px 0px 15px 0px;
+}
+@media (min-width: 767px) {
+  .three-block__column {}
+}
+.three-block__item {
+  background-color: #18b5a4;
+  padding: 15px;
+}
+.three-block__image {
+  padding: 0px 0px 28% 0px;
+  background-color: #ece89d;
+  margin-bottom: 10px;
+}
+.three-block__image img {
+  max-width: 100%;
+}
+.three-block__text {
+  color: #fff;
+  line-height: 25px;
+}
