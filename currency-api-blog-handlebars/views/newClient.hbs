@@ -1,0 +1,30 @@
+<div id="newClient">
+  <h2>Добавить нового клиента</h2>
+  <form name="clientForm" action="/auth/homePage/new" method="post">
+    <div>
+      <p>Wechat ID</p>
+      <input name="wechatId" type="text" placeholder="Wechat ID" required />
+    </div>
+    <div>
+      <p>Total amount</p>
+      <input name="totalAmount" type="text" placeholder="Total amount" /> {{!-- default: 0 --}}
+    </div>
+    <div>
+      <p>Currency</p>
+      <input name="currency" type="text" placeholder="Currency" required />
+    </div>
+    <div>
+      <p>Status</p>
+      <input name="status" type="text" placeholder="Status" /> {{!-- default: 'basic' --}}
+    </div>
+    <div>
+      <p>Trade Date</p>
+      <input name="tradeDate" type="text" placeholder="Trade Date" required />
+    </div>
+    <div>
+      <p>Действия</p>
+      <button type="submit">Add a client</button>
+      <button type="reset">Reset</button>
+    </div>
+  </form>
+</div>

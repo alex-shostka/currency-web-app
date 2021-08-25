@@ -1,0 +1,15 @@
+<div>
+  <ul><br>
+    {{#each clients}}<br>
+    <li>
+      <span>{{this.wechatId}}</span><br><br>
+      <ul id="links">
+        <a href="/auth/homePage/show/{{this.id}}">show info</a>
+        <a href="/auth/homePage/edit/{{this.id}}">edit</a>
+        <a href="/auth/homePage/calculator/{{this.id}}">Калькулятор</a>
+        <a href="/auth/homePage/renderClients/delete/{{this.id}}">Удалить</a>
+      </ul>
+    </li>
+    {{/each}}
+  </ul>
+</div>

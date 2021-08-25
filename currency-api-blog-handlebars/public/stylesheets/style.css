@@ -1,0 +1,49 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a,
+button {
+  color: black;
+  border: solid 1px #00b7ff;
+  background-color: #00b7ff;
+  border-radius: 5px;
+  margin: 10px 5px 10px 0px;
+  padding: 5px 5px 5px 5px;
+}
+
+#greetPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#loginPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#signupForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#newClient {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#editForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}

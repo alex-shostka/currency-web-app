@@ -1,0 +1,15 @@
+<div>
+  {{#if isVisible}}
+  <li>
+    <span>{{client.wechatId}}</span>
+    <ul>
+      <a href="/auth/homePage/show/{{client.id}}">show info</a>
+      <a href="/auth/homePage/edit/{{client.id}}">edit</a>
+      <a href="/auth/homePage/calculator/{{client.id}}">Калькулятор</a>
+      <a href="/auth/homePage">Удалить</a>
+    </ul>
+  </li>
+  {{else}}
+  {{message}}
+  {{/if}}
+</div>

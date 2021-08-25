@@ -1,0 +1,30 @@
+<form name="calcForm" action="/auth/homePage/calculator/{{id}}" method="post">
+  <div>
+    <p>Введите сумму перевода в Юанях</p>
+    <input name="rmbsum" type="text" placeholder="сумма перевода" required />
+  </div>
+
+  <div>
+    <p>Выберете валюту перевода</p>
+    <select name="money">
+      <option value="RUB">Российский рубль</option>
+      <option value="UAH">Украинский гривен</option>
+      <option value="BYN">Белорусский рубль</option>
+      <option value="KZT">Казахстанский тенге</option>
+    </select>
+  </div>
+
+  <div>
+    <p>Выберете биржу</p>
+    <select name="exchange">
+      <option value="cb_rf">ЦБ РФ</option>
+      <option value="bank2">Другой банк</option>
+    </select>
+  </div>
+
+  <div>
+    <p>Действия</p>
+    <button type="submit">Рассчитать</button>
+    <button type="reset">Очистить данные</button>
+  </div>
+</form>

@@ -1,0 +1,14 @@
+<div>
+  <h2>{{user.adminame}}</h2>
+</div><br>
+<div><a href="/auth/logout">logout</a></div><br>
+<div><a href="/auth/homePage/new">Add a new client</a></div><br>
+<div><a href="/auth/homePage/renderClients">show all clients</a></div><br>
+<div>
+  <form action="/auth/homePage/renderClient">
+    <input name="wechatId" type="text" placeholder="Wechat ID">
+    <button type="submit">find a client</button>
+  </form>
+</div><br>
+<div><a href="/auth/homePage/api">Получить котировки по ЦБ</a></div><br>
+<div><a href="/auth/homePage/apiExchange">Получить котировки по Бирже</a></div><br>
