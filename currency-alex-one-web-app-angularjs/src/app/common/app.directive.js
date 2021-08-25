@@ -1,3 +1,6 @@
+/**
+ * Directive to dispaly app
+ */
 var app = {
   templateUrl: "./app.directive.html",
   controller: "AppController",
